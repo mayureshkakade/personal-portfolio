@@ -1,5 +1,7 @@
 import "./globals.css";
+import "react-vertical-timeline-component/style.min.css";
 
+import { ActiveSectionContextProvider } from "./context/ActiveSectionContextProvider";
 import Header from "./components/Header";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
@@ -24,15 +26,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 h-[5000px] relative pt-28 sm:pt-36`}
       >
         {LightRedBg}
         {LightBlueBg}
-
-        <Header />
-        {children}
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );

@@ -8,12 +8,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import { useActiveNavSelection } from "@/app/hooks/UseActiveNavSelection";
 
 const Intro: React.FC = () => {
+  const ref = useActiveNavSelection("Home", { threshold: 0.3 });
+
   return (
     <section
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       id="home"
+      ref={ref}
     >
       <div className="flex items-center justify-center">
         <div className="relative">
