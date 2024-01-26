@@ -19,5 +19,5 @@ export const useActiveNavSelection = (
     }
   }, [inView, sectionName, setActiveSection, timeLastClicked]);
 
-  return ref;
+  return { ref, inView };
 };

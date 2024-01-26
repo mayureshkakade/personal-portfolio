@@ -7,7 +7,7 @@ import { projectsData } from "@/app/lib/data";
 import { useActiveNavSelection } from "@/app/hooks/UseActiveNavSelection";
 
 export default function Projects() {
-  const ref = useActiveNavSelection("Projects", { threshold: 0.5 });
+  const { ref } = useActiveNavSelection("Projects", { threshold: 0.5 });
 
   return (
     <section id="projects" ref={ref} className="scroll-mt-28 mb-28">

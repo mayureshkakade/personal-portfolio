@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useActiveNavSelection } from "@/app/hooks/UseActiveNavSelection";
 
 export default function About() {
-  const ref = useActiveNavSelection("About", { threshold: 0.75 });
+  const { ref } = useActiveNavSelection("About", { threshold: 0.75 });
 
   return (
     <motion.section

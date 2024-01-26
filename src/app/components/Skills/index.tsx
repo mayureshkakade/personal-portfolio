@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 };
 
 export default function Skills() {
-  const ref = useActiveNavSelection("Skills", { threshold: 0.75 });
+  const { ref } = useActiveNavSelection("Skills", { threshold: 0.75 });
 
   return (
     <section

@@ -9,9 +9,11 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import { useActiveNavSelection } from "@/app/hooks/UseActiveNavSelection";
+import { useActiveSectionContext } from "@/app/context/ActiveSectionContextProvider";
 
 const Intro: React.FC = () => {
-  const ref = useActiveNavSelection("Home", { threshold: 0.3 });
+  const { ref } = useActiveNavSelection("Home", { threshold: 0.3 });
+  const { setActiveSection, setTimeLastClicked } = useActiveSectionContext();
 
   return (
     <section
@@ -79,6 +81,10 @@ const Intro: React.FC = () => {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeLastClicked(Date.now);
+          }}
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
