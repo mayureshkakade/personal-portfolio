@@ -42,9 +42,17 @@ Feedback and contributions are welcome! If you have any suggestions or improveme
 
 ## Contact
 
-- **Email**: [mckakade@gmail.com](mailto:mckakade@gmail.com)
-- **LinkedIn**: [Mayuresh Kakade](https://www.linkedin.com/in/mayuresh-kakade-ba4658125/)
-- **Portfolio**: [Your Portfolio Website](https://www.yourportfolio.com)
+<div>
+  <a href="https://www.linkedin.com/in/mayuresh-kakade-ba4658125/">
+    <img width="64px" src="https://github.com/mayureshkakade/personal-portfolio/assets/44115669/694c5f5b-e76e-4334-a773-45bd2d62b267"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:mckakade@gmail.com">
+    <img width="64px" src="https://github.com/mayureshkakade/personal-portfolio/assets/44115669/e9f691f8-1e00-43a3-a997-4f328f2df499"/>
+  </a>
+</div>
+
+</br>
 
 Thank you for visiting my portfolio!
 
