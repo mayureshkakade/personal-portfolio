@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Theme } from "@/app/lib/types";
 
 const getInitialTheme = (): Theme => {
-  if (window === undefined) return "light";
+  if (window === undefined) return "dark";
   const localTheme = window.localStorage.getItem("theme") as Theme;
   if (localTheme) {
     return localTheme;
@@ -17,7 +17,7 @@ const getInitialTheme = (): Theme => {
 };
 
 export const useTheme = () => {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   const handleChangeTheme = () => {
     if (theme === "light") {

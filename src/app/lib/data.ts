@@ -2,9 +2,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
-import corpcommentImg from "../../../public/corpcomment.png";
-import rmtdevImg from "../../../public/rmtdev.png";
-import wordanalyticsImg from "../../../public/wordanalytics.png";
+import chatConsoleImg from "../../../public/cc-project-1.png";
+import photographyPortfolioImg from "../../../public/pp-project-2.png";
 
 export const links = [
   {
@@ -35,73 +34,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BE in Computer Science",
+    location: "MIT, Pune",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "During my time at MIT Pune, I gained a strong foundation in computer science principles and acquired practical skills through hands-on projects and coursework. This educational background has equipped me with the necessary knowledge and skills to excel in the field of software development",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2014-2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "Cybage Software, Pune",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack developer and was involved in transitioning a Windows-Form based application into a modern, web-based SaaS application. I developed captivating UI dashboards and widgets utilizing React and JavaScript and built apis using .NET Core 2.2",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018- 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Senior Software Development Engineer",
+    location: "BridgeNext, Pune (Formerly Emtec Inc)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I'm now a senior full-stack developer and my stack includes React, Next.js, TypeScript, Nest.js, Apollo Graphql and Sql Server. I actively contribute to architect scalable event-driven systems and collaborate with cross-functional teams to gather requirements. I am also involved in mentoring junior team members, providing guidance on best practices, coding standards, and professional development to foster a culture of learning and growth",
+    icon: React.createElement(CgWorkAlt),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Chat-Console",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web-based Slack-like chat application developed using ReactJs, Material UI and Firebase. The application allows users to create channels, have discussions and send text messages as well as images to each other",
+    tags: ["React", "Material UI", "Firebase"],
+    imageUrl: chatConsoleImg,
   },
   {
-    title: "rmtDev",
+    title: "Photography Portfolio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Photography Portfolio Website built using React JS and styled with Bootstrap. Demonstrates lazy loading of images and components. CICD pipeline setup is made using firebase for Gitlab.",
+    tags: ["React", "Firebase", "Twilio", "React Spring"],
+    imageUrl: photographyPortfolioImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Apollo Graphql",
+  "Nest.js",
+  "TypeScript",
+  "CSS",
+  "JavaScript",
+  "HTML",
+  "Nest.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Nx",
+  "Docker",
+  "Firebase",
+  "TypeOrm",
+  "MS Sql Server",
   "Framer Motion",
+  "Fastify",
+  "Express",
+  "Kafka",
 ] as const;

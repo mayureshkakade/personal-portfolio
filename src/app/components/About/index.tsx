@@ -18,7 +18,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
+        I completed my Bachelor of Engineering in
+        <span className="italic"> Computer Science </span>from{" "}
+        <span className="font-medium"> MIT, Pune </span>in 2018. My focus lies
+        in enhancing user experience by crafting seamless interfaces and user
+        experiences. On the backend, I have designed and implemented
+        <span className="italic"> microservices-based </span>architecture using{" "}
+        <span className="font-medium">Apollo Federation </span>ensuring
+        scalability and maintainability of complex systems. I have also worked
+        with<span className="italic"> event-driven </span>systems using
+        <span className="font-medium"> Confluent Kafka</span>, enabling reliable
+        communication between microservices. I have extensive experience in
+        implementing<span className="italic"> monitoring and logging </span>
+        solutions for services, leveraging tools like
+        <span className="font-medium"> New Relic </span>to ensure performance
+        optimization and proactive issue resolution.
+      </p>
+
+      <p className="mb-3">
+        I am also proficient in front-end technologies such as
+        <span className="font-medium"> React, TypeScript, and Next.js</span>,
+        enabling me to create intuitive user interfaces. With a strong
+        foundation in computer science and a commitment to continuous learning,
+        I strive to stay updated with the latest trends and technologies in the
+        software development industry. After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -36,12 +59,18 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, watching movies, and playing with my dog. I also
-        enjoy <span className="font-medium">learning new things</span>. I am
-        currently learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&apos;m
-        also learning how to play the guitar.
+        <span className="italic">In my free time</span>, I enjoy diving into
+        various <span className="font-medium">video game </span>worlds to
+        challenge myself and experience captivating narratives. I&apos;m also a{" "}
+        <span className="font-medium">movie enthusiast</span> and love immersing
+        myself in captivating films across various genres. I love immersing
+        myself in different cultures, cuisines, and landscapes by{" "}
+        <span className="italic">traveling and exploring</span> new places. I
+        also enjoy staying active by playing
+        <span className="font-medium"> badminton and table tennis</span>. These
+        sports not only keep me physically fit but also provide a fun and{" "}
+        <span className="italic">competitive </span>
+        outlet to challenge myself and socialize with friends.
       </p>
     </motion.section>
   );
