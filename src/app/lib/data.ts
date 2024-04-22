@@ -66,6 +66,7 @@ export const projectsData = [
       "A web-based Slack-like chat application developed using ReactJs, Material UI and Firebase. The application allows users to create channels, have discussions and send text messages as well as images to each other",
     tags: ["React", "Material UI", "Firebase"],
     imageUrl: chatConsoleImg,
+    repoUrl: 'https://gitlab.com/virtualghostmck/chat-app'
   },
   {
     title: "Photography Portfolio",
@@ -73,6 +74,7 @@ export const projectsData = [
       "Photography Portfolio Website built using React JS and styled with Bootstrap. Demonstrates lazy loading of images and components. CICD pipeline setup is made using firebase for Gitlab.",
     tags: ["React", "Firebase", "Twilio", "React Spring"],
     imageUrl: photographyPortfolioImg,
+    repoUrl: 'https://github.com/mayureshkakade/photography-portfolio'
   },
 ] as const;
 
