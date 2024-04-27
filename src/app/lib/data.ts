@@ -1,5 +1,4 @@
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
 import chatConsoleImg from "../../../public/cc-project-1.png";
@@ -51,7 +50,7 @@ export const experiencesData = [
   },
   {
     title: "Senior Software Development Engineer",
-    location: "BridgeNext, Pune (Formerly Emtec Inc)",
+    location: "Bridgenext, Pune (Formerly Emtec Inc)",
     description:
       "I'm now a senior full-stack developer and my stack includes React, Next.js, TypeScript, Nest.js, Apollo Graphql and Sql Server. I actively contribute to architect scalable event-driven systems and collaborate with cross-functional teams to gather requirements. I am also involved in mentoring junior team members, providing guidance on best practices, coding standards, and professional development to foster a culture of learning and growth",
     icon: React.createElement(CgWorkAlt),
@@ -66,7 +65,7 @@ export const projectsData = [
       "A web-based Slack-like chat application developed using ReactJs, Material UI and Firebase. The application allows users to create channels, have discussions and send text messages as well as images to each other",
     tags: ["React", "Material UI", "Firebase"],
     imageUrl: chatConsoleImg,
-    repoUrl: 'https://gitlab.com/virtualghostmck/chat-app'
+    repoUrl: "https://gitlab.com/virtualghostmck/chat-app",
   },
   {
     title: "Photography Portfolio",
@@ -74,7 +73,7 @@ export const projectsData = [
       "Photography Portfolio Website built using React JS and styled with Bootstrap. Demonstrates lazy loading of images and components. CICD pipeline setup is made using firebase for Gitlab.",
     tags: ["React", "Firebase", "Twilio", "React Spring"],
     imageUrl: photographyPortfolioImg,
-    repoUrl: 'https://github.com/mayureshkakade/photography-portfolio'
+    repoUrl: "https://github.com/mayureshkakade/photography-portfolio",
   },
 ] as const;
 

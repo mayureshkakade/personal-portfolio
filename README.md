@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue"/>
 </div>
 
-# Mayuresh's Portfolio
+# [Mayuresh's Portfolio](https://mayuresh.vercel.app/) 👈️
 
 Welcome to my personal portfolio! I am a fullstack developer with over 5 years of experience in building web applications. This portfolio showcases some of my projects and skills.
 
@@ -51,4 +51,3 @@ Feedback and contributions are welcome! If you have any suggestions or improveme
 </br>
 
 Thank you for visiting my portfolio!
-
