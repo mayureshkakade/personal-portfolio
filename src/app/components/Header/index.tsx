@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
-
+import React from "react";
 import Link from "next/link";
 import clsx from "clsx";
 import { links } from "@/app/lib/data";
