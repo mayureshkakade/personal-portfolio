@@ -49,7 +49,7 @@ const Intro: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Mayuresh.</span> I&apos;m a{" "}
-        <span className="font-bold">Senior Fullstack Developer</span> with {" "}
+        <span className="font-bold">Senior Fullstack Developer</span> with{" "}
         <span className="font-bold">~6 years</span> of experience. My passion
         lies in <span className="italic">problem-solving</span> using intuitive
         approaches.
@@ -77,7 +77,7 @@ const Intro: React.FC = () => {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/MayureshKakadeCV.pdf"
+          href="/Mayuresh_Kakade_Fullstack_Resume.pdf"
           download
         >
           Download CV{" "}
