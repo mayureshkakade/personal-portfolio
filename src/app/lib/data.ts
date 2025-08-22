@@ -50,30 +50,38 @@ export const experiencesData = [
   },
   {
     title: "Senior Software Development Engineer",
-    location: "Bridgenext, Pune (Formerly Emtec Inc)",
+    location: "Bridgenext, Pune",
     description:
-      "I'm now a senior full-stack developer and my stack includes React, Next.js, TypeScript, Nest.js, Apollo Graphql and Sql Server. I actively contribute to architect scalable event-driven systems and collaborate with cross-functional teams to gather requirements. I am also involved in mentoring junior team members, providing guidance on best practices, coding standards, and professional development to foster a culture of learning and growth",
+      "During my tenure as a Senior Software Development Engineer, I was a key contributor to the development of robust, scalable full-stack applications. My responsibilities included architecting event-driven systems and collaborating with cross-functional teams to gather requirements. I utilized a technology stack that included React, Next.js, TypeScript, Nest.js, Apollo GraphQL, and SQL Server. A significant part of my role involved mentoring junior team members, providing guidance on coding standards and best practices to promote a culture of growth.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - present",
+    date: "2021 - 2024",
+  },
+  {
+    title: "Staff Software Engineer",
+    location: "Bridgenext, Pune",
+    description:
+      "As a Staff Software Engineer, I specialize in architecting high-performance, scalable systems that directly drive business outcomes. My work includes leveraging Apollo Federation to slash latency by 10% and implementing React accessibility features that increased user reach by 5%. I also built an event-driven solution with Kafka and MongoDB capable of processing up to a million records, all while enhancing team efficiency by mentoring junior developers and promoting best practices.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Photography Portfolio",
+    description:
+      "Re-platformed a React SPA to Next.js 13 to unlock a major performance boost via SSR/ISR. Automated the CI/CD pipeline with GitHub Actions and Vercel and integrated the Google Drive API, empowering the client to manage their portfolio photos directly.",
+    tags: ["React", "Vercel", "Next.js", "Google Drive"],
+    imageUrl: photographyPortfolioImg,
+    repoUrl: "https://github.com/mayureshkakade/photography-portfolio",
+  },
+  {
     title: "Chat-Console",
     description:
-      "A web-based Slack-like chat application developed using ReactJs, Material UI and Firebase. The application allows users to create channels, have discussions and send text messages as well as images to each other",
+      "Created a Slack-like chat application with ReactJS, Material UI, and Firebase, enabling users to create channels, have discussions, and share text and images in a real-time, collaborative environment.",
     tags: ["React", "Material UI", "Firebase"],
     imageUrl: chatConsoleImg,
     repoUrl: "https://gitlab.com/virtualghostmck/chat-app",
-  },
-  {
-    title: "Photography Portfolio",
-    description:
-      "Photography Portfolio Website built using React JS and styled with Bootstrap. Demonstrates lazy loading of images and components. CICD pipeline setup is made using firebase for Gitlab.",
-    tags: ["React", "Firebase", "Twilio", "React Spring"],
-    imageUrl: photographyPortfolioImg,
-    repoUrl: "https://github.com/mayureshkakade/photography-portfolio",
   },
 ] as const;
 
@@ -83,10 +91,13 @@ export const skillsData = [
   "Apollo Graphql",
   "Nest.js",
   "TypeScript",
+  "Nest.js",
+  "Fastify",
+  "Express",
+  "Kafka",
   "CSS",
   "JavaScript",
   "HTML",
-  "Nest.js",
   "Git",
   "Tailwind",
   "Nx",
@@ -95,7 +106,4 @@ export const skillsData = [
   "TypeOrm",
   "MS Sql Server",
   "Framer Motion",
-  "Fastify",
-  "Express",
-  "Kafka",
 ] as const;

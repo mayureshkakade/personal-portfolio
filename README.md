@@ -8,7 +8,7 @@
 
 # [Mayuresh's Portfolio](https://mayuresh.vercel.app/) 👈️
 
-Welcome to my personal portfolio! I am a fullstack developer with over 5 years of experience in building web applications. This portfolio showcases some of my projects and skills.
+Welcome to my personal portfolio! I am a fullstack developer with over 7 years of experience in building web applications. This portfolio showcases some of my projects and skills.
 
 ## Technologies Used
 
